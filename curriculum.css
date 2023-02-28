@@ -1,0 +1,130 @@
+body {
+    background-color:bisque;
+   }
+
+
+
+.habilidades{
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+
+ul.habilidades {
+    list-style-type: square;
+  }
+.letra {
+    font-family: fantasy;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+  }
+
+
+p {
+  color: black;
+
+}
+
+
+
+    h2 {
+
+color: palevioletred;
+}
+
+h3 {
+
+color: palevioletred;
+
+}
+
+h4 {
+
+color: palevioletred;
+}
+
+img, span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0px;    
+}
+
+img {
+    margin-right: 10px;
+}
+.dueña-curriculum {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.enfasis {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: palevioletred;
+    font-size: 3em;
+    
+}
+.inline {
+display: inline;
+text-align:left;
+margin-left: 200px;
+font-size: 60px;
+}
+
+.marco-imagen {
+    
+    width: 200;
+    height: 200;
+    
+  }
+
+  .subtítulo {
+    display: flex;
+    
+  }
+
+.perfil {
+font-family: cursive;
+ height: 200px;
+ text-align: left;
+ width: 200px;
+ padding: 0;
+}
+
+.general {
+    padding-left: 60px;
+    display: flex;
+}
+
+.subtítulo-2 {
+
+    margin-left: 180px 
+}
+
+.redes{
+    padding: 20px;
+    padding-left: 20px;
+}
+
+
+
+.social {
+
+margin-left: 60px;
+}
+
+
+ 
+
+
+
+  
