@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 220px;
+    padding: 5%;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 10%;
+    margin-bottom: 0;
+}
+
+.in-flex div {
+    padding: 30px;
+}
+
+.fotografa {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: palevioletred;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.Mayuscula {
+    font-weight: bold;
+}
+
+.Titulos {
+    color: palevioletred;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+.Nombre {
+    font-size: 3em;
+    size: 20%;
+}
+
+.Logos {
+    padding: auto;
+}
+
+.Twitter {
+    padding: 3%;
+}
+
+.Instagram {
+    padding: 3%;
+}
+
+.Gmail {
+    padding: 3%;
+}
+
+.Texto-de-redes {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
