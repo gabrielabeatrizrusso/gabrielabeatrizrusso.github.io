@@ -1,130 +1,78 @@
-body {
-    background-color:bisque;
-   }
-
-
-
-.habilidades{
-    padding-left: 55px;
-    padding-bottom: 40px;
-}
-
-ul.habilidades {
-    list-style-type: square;
-  }
-.letra {
-    font-family: fantasy;
-    font-size: 14px;
-    margin: 0;
-    padding-left: 60px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-
-  }
-
-
-p {
-  color: black;
-
-}
-
-
-
-    h2 {
-
-color: palevioletred;
-}
-
-h3 {
-
-color: palevioletred;
-
-}
-
-h4 {
-
-color: palevioletred;
-}
-
-img, span {
-    display: inline-block;
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century;
     vertical-align: middle;
-}
-
-.container {
-    display: flex;
     align-items: center;
-    padding: 0px;    
+    text-align: center;
 }
 
-img {
-    margin-right: 10px;
-}
-.dueña-curriculum {
-    display: inline-block;
-    vertical-align: middle;
+body {
+    background-color: bisque;
 }
 
-.enfasis {
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 220px;
+    padding: 5%;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 10%;
+    margin-bottom: 0;
+}
+
+.in-flex div {
+    padding: 30px;
+}
+
+.fotografa {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: palevioletred;
     font-size: 3em;
-    
-}
-.inline {
-display: inline;
-text-align:left;
-margin-left: 200px;
-font-size: 60px;
+    font-family: fantasy;
 }
 
-.marco-imagen {
-    
-    width: 200;
-    height: 200;
-    
-  }
-
-  .subtítulo {
-    display: flex;
-    
-  }
-
-.perfil {
-font-family: cursive;
- height: 200px;
- text-align: left;
- width: 200px;
- padding: 0;
+.Mayuscula {
+    font-weight: bold;
 }
 
-.general {
-    padding-left: 60px;
-    display: flex;
+.Titulos {
+    color: palevioletred;
+    margin-top: 3%;
+    margin-bottom: 0;
 }
 
-.subtítulo-2 {
-
-    margin-left: 180px 
+.Nombre {
+    font-size: 3em;
+    size: 20%;
 }
 
-.redes{
-    padding: 20px;
-    padding-left: 20px;
+.Logos {
+    padding: auto;
 }
 
-
-
-.social {
-
-margin-left: 60px;
+.Twitter {
+    padding: 3%;
 }
 
+.Instagram {
+    padding: 3%;
+}
 
- 
+.Gmail {
+    padding: 3%;
+}
 
-
-
-  
+.Texto-de-redes {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
